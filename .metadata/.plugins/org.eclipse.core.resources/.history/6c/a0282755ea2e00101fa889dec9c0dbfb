@@ -1,0 +1,19 @@
+package com.stringclass;
+
+public class MethodsInString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Hey There!!";
+		
+		char c[] = new char[10];
+		 str.getChars(0, 6, c, 0);
+		 
+		 System.out.println(c);
+		 System.out.println(str.repeat(10));
+		 str.replace('a', 'm');
+		 System.out.println(str);
+
+	}
+
+}

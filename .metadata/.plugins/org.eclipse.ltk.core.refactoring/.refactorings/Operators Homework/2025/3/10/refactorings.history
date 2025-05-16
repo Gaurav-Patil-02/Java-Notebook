@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;PerimeterOfRectangle&apos; to &apos;AreaAndPerimeterOfRectangle&apos;&#x0D;&#x0A;- Original project: &apos;Operators Homework&apos;&#x0D;&#x0A;- Original element: &apos;PerimeterOfRectangle&apos;&#x0D;&#x0A;- Renamed element: &apos;AreaAndPerimeterOfRectangle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PerimeterOfRectangle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{PerimeterOfRectangle.java[PerimeterOfRectangle" matchStrategy="1" name="AreaAndPerimeterOfRectangle" qualified="false" references="true" similarDeclarations="false" stamp="1741327930028" textual="false" version="1.0"/>
+</session>

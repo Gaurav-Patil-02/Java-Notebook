@@ -1,0 +1,17 @@
+
+public class ReverseNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 1270;
+		int reverse;
+		while(num > 0) {
+			reverse = num % 10;
+			System.out.println(reverse);
+			 num = num / 10;
+			 System.out.println(num);
+		}
+
+	}
+
+}

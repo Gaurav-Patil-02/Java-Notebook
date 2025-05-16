@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ZidiacSign&apos; to &apos;ZodiacSign&apos;&#x0D;&#x0A;- Original project: &apos;Switch_If_Else_Assignments&apos;&#x0D;&#x0A;- Original element: &apos;ZidiacSign&apos;&#x0D;&#x0A;- Renamed element: &apos;ZodiacSign&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ZidiacSign&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ZidiacSign.java[ZidiacSign" matchStrategy="1" name="ZodiacSign" qualified="false" references="true" similarDeclarations="false" stamp="1741842749824" textual="false" version="1.0"/>
+</session>

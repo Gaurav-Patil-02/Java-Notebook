@@ -1,0 +1,33 @@
+package com.exceptionpractice;
+
+import java.util.Scanner;
+
+public class ExceptionPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+//		Question 1
+//		System.out.println("Enter any two numbers");
+//		int n1 = scan.nextInt();
+//		int n2= scan.nextInt();
+//		try {
+//			System.out.println(n1/n2);
+//		}catch(ArithmeticException e) {
+//			System.err.println( e.getMessage());
+//		}
+		
+//		Question 2
+		
+		try {
+			int arr[] = new int[5];
+			arr[10] = 5;
+		} catch (ArrayIndexOutOfBoundsException e) {
+			e.getMessage();
+		}
+		
+		
+	}
+
+}

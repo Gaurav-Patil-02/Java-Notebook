@@ -1,0 +1,110 @@
+package com.stringclass;
+
+import java.util.Arrays;
+
+public class PracticeQue {
+	public static void main(String[] args) {
+		String str = "   Madam   ";
+		StringBuilder sb = new StringBuilder(str);
+
+		// Que 1
+		// System.out.println( sb.reverse());
+		String rev = "";
+		for (int i = str.length() - 1; i >= 0; i--) {
+			rev += str.charAt(i);
+		}
+		System.out.println(rev);
+
+		// Que 2
+
+		// isPalindrome = rev == str ? true : false;
+		String newStr = str.toLowerCase();
+		for (int i = 0; i < str.length() / 2; i++) {
+
+			if (newStr.charAt(i) == newStr.charAt(newStr.length() - 1 - i)) {
+				System.out.println("palindrome");
+				break;
+			} else
+				System.out.println("not palindrome");
+			break;
+		}
+
+		// Que 3
+		int vowels = 0;
+		int consonents = 0;
+		for (int i = 0; i < str.length(); i++) {
+			if (str.charAt(i) == 'A' || str.charAt(i) == 'E' || str.charAt(i) == 'I' || str.charAt(i) == 'O'
+					|| str.charAt(i) == 'U' || str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i'
+					|| str.charAt(i) == 'o' || str.charAt(i) == 'u') {
+				vowels++;
+			} else {
+				consonents++;
+			}
+		}
+		System.out.println("vowels" + vowels);
+		System.out.println("Consonents " + consonents);
+		
+	//Que 4
+	 String newStr1 = str.trim();
+	 System.out.println(newStr1); 
+	 
+	 
+	//Que 5.
+	 String sentence = "Counting the number of words in a string";
+	 int count = 0;
+	 for(int i = 0; i < sentence.length();i++) {
+		 if(sentence.charAt(i) == ' ') {
+			 count++;
+		 }
+	 }
+	 System.out.println("Total Words in sentence " + (count+1));
+	 
+	 //Que 6.
+	  System.out.println(sentence.toUpperCase());
+	  System.out.println(sentence.toLowerCase());
+	  
+	  //Que 7
+	  System.out.println(sentence.replace('a', 'z'));
+	  
+	  //Que 8
+	  String strLength = "Hey There!!";
+	  char charArr[] = strLength.toCharArray();
+	  System.out.println(Arrays.toString(charArr));
+	  int strCount = 0;
+	  for(char c : charArr) {
+		  strCount++;
+	  }
+	  System.out.println(strCount);
+	  
+	  
+	  //Que 9
+	  String str1 = "Hiii";
+	  String str2 = "Hello";
+	  for(int i = 0; i < str1.length(); i++) {
+		  if(str1.charAt(i) != str2.charAt(i)) {
+			  System.out.println("Strings are not same");
+			  break;
+		  }
+	  }
+	  
+	  //Que 10
+	  String str4 = "Hey There";
+	  char c[] = str4.toCharArray();
+	  for(int i = 0; i < c.length;i++) {
+		  int countStr = 0;
+		  for(int j = i +1; j < c.length; j++) {
+			  if(c[i] == ' ') continue;
+			  else if(c[i] == c[j] && countStr == 0) {
+				  System.out.println(c[i]);
+				  countStr++;
+				  c[j] = '0';
+			  }
+		  }
+	 }
+	  	  
+	}
+	
+}
+	
+
+
