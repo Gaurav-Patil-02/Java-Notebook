@@ -1,0 +1,14 @@
+package com.throwskeyword;
+
+public class CalculateSqrt {
+	public void calSqrt(int num) {
+		if(num < 0) {
+			throw new ArithmeticException();
+		}
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

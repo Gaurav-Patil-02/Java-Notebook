@@ -1,0 +1,13 @@
+package com.throwskeyword;
+
+public class ThrowArithmeticException {
+	public void arithmeticExp() throws ArithmeticException{
+		Class.forName("java.lang.String");
+	}
+	public static void main(String[] args) {
+		ThrowArithmeticException th = new ThrowArithmeticException();
+		th.arithmeticExp();
+
+	}
+
+}

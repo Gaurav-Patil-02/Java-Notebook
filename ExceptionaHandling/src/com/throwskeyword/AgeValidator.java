@@ -1,0 +1,14 @@
+package com.throwskeyword;
+
+public class AgeValidator {
+	public void validateAge(int age) {
+		if(age < 18) {
+			throw new IllegalArgumentException();
+		}else System.out.println("Age is greater than 18");
+	}
+	public static void main(String[] args) {
+		AgeValidator a = new AgeValidator();
+		a.validateAge(17);
+	}
+
+}

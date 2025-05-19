@@ -1,0 +1,16 @@
+package com.throwskeyword;
+
+import java.util.Scanner;
+
+public class InputMismatch {
+	public void read() {
+		Scanner scan = new Scanner(System.in);
+		int a = scan.nextLine();
+	}
+	public static void main(String[] args) {
+		InputMismatch im = new InputMismatch();
+		
+
+	}
+
+}

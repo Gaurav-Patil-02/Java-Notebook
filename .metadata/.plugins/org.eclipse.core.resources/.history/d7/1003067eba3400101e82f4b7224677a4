@@ -1,0 +1,15 @@
+package com.throwskeyword;
+
+import java.io.FileInputStream;
+
+public class FileReader {
+	public void readFile() {
+		FileInputStream fs = new FileInputStream("d://text.txt");
+
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

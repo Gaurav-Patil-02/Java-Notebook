@@ -1,0 +1,17 @@
+package com.throwskeyword;
+
+public class CalculateSqrt {
+	public void calSqrt(int num) {
+		if(num < 0) {
+			throw new ArithmeticException();
+		}else {
+			System.out.println("Square Root ");
+		}
+	}
+	public static void main(String[] args) {
+		CalculateSqrt c = new CalculateSqrt();
+		c.calSqrt(-1);
+
+	}
+
+}

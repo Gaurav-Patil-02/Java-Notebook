@@ -1,0 +1,21 @@
+package com.throwskeyword;
+
+import java.sql.SQLException;
+
+import javax.imageio.IIOException;
+
+public class DemonstrateThrowsChaining {
+	public void throwsEx(boolean sql, boolean io) {
+		if(io) {
+			throw new IIOException("IO Exception occured");
+		}else if(sql) {
+			throw new SQLException("SQL Excepiton occured");s
+		}
+	}
+	public static void main(String[] args) {
+		DemonstrateThrowsChaining dm = new DemonstrateThrowsChaining();
+		dm.throwsEx(true, false);
+
+	}
+
+}

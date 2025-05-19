@@ -1,0 +1,17 @@
+package com.throwandthrows;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ThrowsKeyword {
+	
+	public void throwsEx() throws ClassNotFoundException{
+		Class.forName("java.lang.String");
+		System.out.println("ex not occured");
+	}
+	
+	public void m2() throws FileNotFoundException{
+		FileInputStream fs = new FileInputStream("d/newFile.txt");
+		System.out.println("Ex not occurex");
+	}
+}

@@ -1,0 +1,18 @@
+package com.throwskeyword;
+
+public class ThrowArithmeticException {
+	public void arithmeticExp() throws ArithmeticException, ClassNotFoundException{
+		Class.forName("java.lang.String");
+	}
+	public static void main(String[] args) {
+		ThrowArithmeticException th = new ThrowArithmeticException();
+		
+		try {
+			th.arithmeticExp();
+		} catch (ArithmeticException | ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.throwandthrows;
+
+import java.io.FileNotFoundException;
+
+public class Main {
+
+	public static void main(String[] args) throws ClassNotFoundException, FileNotFoundException {
+		ThrowsKeyword th = new ThrowsKeyword();
+		try {
+		
+		th.throwsEx();
+
+				}catch(Exception e) {
+			System.out.println(e.getMessage());
+			
+		}
+		
+		th.m2();
+		System.out.println("Flow of Execution Continued");
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.throwskeyword;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class InputMismatch {
+	public void read() throws InputMismatchException{
+		Scanner scan = new Scanner(System.in);
+		String str = scan.nextLine();
+		int a = Integer.parseInt(str);
+	}
+	public static void main(String[] args) {
+		InputMismatch im = new InputMismatch();
+		
+
+	}
+
+}

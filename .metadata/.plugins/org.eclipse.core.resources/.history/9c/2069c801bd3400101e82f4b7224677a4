@@ -1,0 +1,16 @@
+package com.throwskeyword;
+
+
+class InsufficientBalanceException extends Exception{
+	InsufficientBalanceException (String msg){
+		super(msg);
+	}
+}
+public class WithdrawAmount {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

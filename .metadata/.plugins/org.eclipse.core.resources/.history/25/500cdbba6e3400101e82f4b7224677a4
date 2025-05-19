@@ -1,0 +1,11 @@
+package com.throwandthrows;
+
+public class Main {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		ThrowsKeyword th = new ThrowsKeyword();
+		th.throwsEx();
+
+	}
+
+}

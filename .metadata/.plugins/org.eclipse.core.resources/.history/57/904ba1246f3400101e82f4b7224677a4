@@ -1,0 +1,19 @@
+package com.throwandthrows;
+
+public class Main {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		ThrowsKeyword th = new ThrowsKeyword();
+//		try {
+		
+		th.throwsEx();
+
+		//		}catch(Exception e) {
+//			System.out.println(e.getMessage());
+//			
+//		}
+		
+		System.out.println("Flow of Execution Continued");
+	}
+
+}

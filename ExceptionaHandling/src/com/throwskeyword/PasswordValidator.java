@@ -1,0 +1,26 @@
+package com.throwskeyword;
+
+class WeakPasswordException extends Exception{
+	WeakPasswordException(String s){
+		super(s);
+	}
+}
+
+
+public class PasswordValidator   {
+	public void validatePass(String pass) throws WeakPasswordException{
+		if(pass.length() < 6) {
+			throw new WeakPasswordException("Password should be greater than 6");
+		}
+	}
+	public static void main(String[] args) {
+		PasswordValidator pass = new PasswordValidator();
+		try {
+			pass.validatePass("Pass");
+		} catch (WeakPasswordException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

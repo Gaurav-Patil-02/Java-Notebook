@@ -1,0 +1,17 @@
+package com.throwskeyword;
+
+class WeakPasswordException extends Exception{
+	WeakPasswordException(String s){
+		super(s);
+	}
+}
+
+
+public class PasswordValidator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.throwandthrows;
+
+public class ThrowsKeyword {
+	
+	public void throwsEx() throws ClassNotFoundException{
+		Class.forName("java.lang.String");
+		System.out.println("ex not occured");
+	}
+}
