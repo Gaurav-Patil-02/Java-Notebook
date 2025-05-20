@@ -10,8 +10,21 @@
     <fullyQualifiedTypeName name="com.inheritanceday2.Fan"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="com.throwskeyword.WeakPasswordException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="javax.imageio.IIOException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.multithreadingday1.Mic"/>
+    <fullyQualifiedTypeName name="com.multithreadingday1.Video"/>
+    <fullyQualifiedTypeName name="com.multithreadingday1.Audio"/>
+    <fullyQualifiedTypeName name="com.multithreadingday1.Participants"/>
 </qualifiedTypeNameHistroy>

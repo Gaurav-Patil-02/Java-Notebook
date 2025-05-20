@@ -8,7 +8,7 @@ class WeakPasswordException extends Exception{
 
 
 public class PasswordValidator   {
-	public void validatePass(String pass) throws WeakPasswordException{
+	public void validatePass(String pass) throws WeakPasswordException {
 		if(pass.length() < 6) {
 			throw new WeakPasswordException("Password should be greater than 6");
 		}
@@ -22,5 +22,5 @@ public class PasswordValidator   {
 		}
 
 	}
-
+ 
 }
