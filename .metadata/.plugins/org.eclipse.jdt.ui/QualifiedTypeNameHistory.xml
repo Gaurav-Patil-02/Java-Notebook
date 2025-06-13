@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="com.inheritanceday2.Fan"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
@@ -27,4 +26,7 @@
     <fullyQualifiedTypeName name="com.multithreadingday1.Video"/>
     <fullyQualifiedTypeName name="com.multithreadingday1.Audio"/>
     <fullyQualifiedTypeName name="com.multithreadingday1.Participants"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
