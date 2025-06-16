@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="com.homework.PrimeNumber"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.scanner_practice_day2.Student"/>
     <fullyQualifiedTypeName name="com.scanner_practice_day2.StudentDetails"/>
     <fullyQualifiedTypeName name="com.scanner_practice_day2.Customer"/>
@@ -29,4 +27,15 @@
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.jdbccrud.dao.CourseDAO"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.jdbccrud.services.CourseService"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="com.jdbccrud.dao.StudentDAO"/>
+    <fullyQualifiedTypeName name="com.jdbccrud.service.StudentService"/>
+    <fullyQualifiedTypeName name="com.jdbccrud.controller.StudentController"/>
+    <fullyQualifiedTypeName name="com.jdbccrud.model.Student"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
