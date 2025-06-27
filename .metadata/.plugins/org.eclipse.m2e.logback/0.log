@@ -75,3 +75,13 @@
 2025-06-14 22:08:27,113 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2025-06-14 22:10:59,425 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2025-06-16 16:12:03,410 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-17 14:07:16,618 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-17 14:10:01,396 [Worker-2: Creating project "JDBCWithMaven"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jdbcwithmaven:JDBCWithMaven:0.0.1-SNAPSHOT @ E:\Kiran Academy\1043 CSR Core Java\JDBCWithMaven\pom.xml.
+2025-06-17 14:10:02,573 [Worker-2: Creating project "JDBCWithMaven"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JDBCWithMaven/src/main/java
+2025-06-17 14:10:02,577 [Worker-2: Creating project "JDBCWithMaven"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JDBCWithMaven/src/main/resources
+2025-06-17 14:10:02,578 [Worker-2: Creating project "JDBCWithMaven"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JDBCWithMaven/src/test/java
+2025-06-17 14:10:02,579 [Worker-2: Creating project "JDBCWithMaven"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JDBCWithMaven/src/test/resources
+2025-06-17 14:10:03,569 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-06-17 14:10:03,579 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-17 14:10:03,588 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-06-17 14:10:03,590 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
